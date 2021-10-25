@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply px-3 py-1 font-semibold tracking-wide uppercase transition-transform transform rounded-full shadow-md hover:scale-105 active:scale-95 ring-green-200 hover:ring-2 ring-offset-2;
+  }
+
+  .header-open {
+    @apply transition-all ease-linear h-60;
+  }
+  .card {
+    @apply grid w-full h-32 transition duration-300 bg-white place-items-center;
+  }
+}
